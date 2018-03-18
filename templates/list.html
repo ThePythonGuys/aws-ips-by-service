@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="list">
+    {% for fcn_aws_service in fcn_aws_service_list %}
+        {{ fcn_aws_service }}<br/>
+    {% endfor %}
+    <p>Select which AWS Service you would like IP Ranges for</p>
+</div>
+{% endblock %}
