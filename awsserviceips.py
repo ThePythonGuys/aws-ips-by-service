@@ -42,7 +42,7 @@ if __name__ == "__main__":
         print(service)
     print('\n')
 
-    selection = input('Select the Service you would like from the list above: ')
+    selection = input('Please select the Service you would like from the list above: ')
 
     ip_ranges, count = get_ranges(selection)
 
